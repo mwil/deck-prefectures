@@ -1,0 +1,214 @@
+#MapOfJapan {
+ 	height: 70%;
+}
+
+.expand_button{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    background: #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s ease;
+
+    i{
+        line-height: 40px;
+        margin-left: 10px;
+    }
+}
+.expand_button:hover{
+    background: #909399;
+}
+.review_wrapper .expand_content{
+    visibility: hidden;
+}
+.quiz .expand_content{
+    visibility: hidden;
+}
+.extra_wrapper{
+    width: 100%;
+    float: left;
+}
+.c_wrapper{
+    backface-visibility: visible !important;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.extra{
+    font-size: 1.2em !important;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.subtitle {
+    color: white;
+    font-size: 1.3em;
+    display: table-row;
+    width: 100%;
+    height: 30px;
+}
+.left{
+    text-align: left;
+    margin-left:20px;
+    margin-bottom: 0;
+}
+.left_wrapper{
+    width: 50%;
+    float: left;
+
+}
+.full_wrapper{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.full_wrapper .bot_text{
+    margin-bottom: 0px;
+}
+.underline{
+    height: 2px;
+    background: #b7b7b7;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+.right_wrapper .underline{
+    margin-right: 20px !important;
+}
+.left_wrapper .underline{
+    margin-left: 20px !important;
+}
+.right_wrapper{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.right_wrapper .bot_text{
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.bot_text {
+    font-size: 1.5em;
+    color: #909399;
+}
+.top_wrapper{
+    //background: #314156;
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    z-index: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: table;
+
+}
+
+#typeans{
+    width: 100%;
+    border: none;
+    float: left;
+    max-width: 100%;
+    height: 80px;
+    outline: 1px solid lightgray;
+    outline-offset: -1px;
+    text-align: center;
+    font-size: 1.5em;
+}
+#typeans_wrapper{
+    height: 80px;
+}
+.green{
+    .top_wrapper{
+        background:#5FA749;
+    }
+}
+.purple{
+    .top_wrapper{
+        background:#5E549A;
+    }
+}
+.colors{
+    .top_wrapper{
+        //background: #71b75b;
+        //background: #60A749;
+        //background: #5E549A;
+        //background: #5E549A;
+        //background: #FED82E;
+        //background: #ff8e2a;
+        //background: #F188AA;
+        background: #3A7387;
+    }
+    .bot_wrapper{
+        background: #cbced2;
+	    background: #3f3f40;
+    }
+}
+
+.alt1{
+    #typeans {
+        width: 100%;
+        border: none;
+        float: left;
+        max-width: 100%;
+        height: 80px;
+        outline: 1px solid #f6f6f6;
+        outline-offset: -1px;
+        text-align: center;
+        font-size: 1.5em;
+        color: #909399;
+    }
+    .bot_wrapper{
+        width: calc(100% - 2px);
+        height: calc(60vh - 102px);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: #F6F6F6;
+            border: #F6F6F6 1px solid;
+    }
+    .top_wrapper p {
+        font-size: 4em;
+        margin: 0;
+        color: white;
+        text-shadow: 3px 3px 6px #000000;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .type {
+        font-size: 2em;
+        color: white;
+        position: absolute;
+        top: 36px;
+        left: 30px;
+        float: left;
+    }
+    .top_wrapper {
+        position: relative;
+
+        //background: #314156;
+        /* background: #5E549A; */
+        // background: #5E549A;
+        height: 40vh;
+        width: 100%;
+        z-index: 1;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}

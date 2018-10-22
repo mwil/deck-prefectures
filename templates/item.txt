@@ -1,0 +1,22 @@
+Prefectures - Item
+
+<index>
+
+type             -- str -- {Region, Prefecture, Capital}
+name_en          -- str -- Name (use non-ascii here?)
+name_kanji       -- str -- Kanji name (furigana?)
+name_kana        -- str -- Kana name
+map_ids          -- csv -- IDs in the SVG that are representing this item
+
+stats_population -- int -- Population living in {{item}} (TODO: when?)
+stats_area       -- flt -- Area in km2
+
+img_flag         -- img -- Image of flag if available
+img_view         -- img -- Some kind of image like skyline or famous goods?
+
+url_wiki         -- url -- Wikipedia page
+url_official     -- url -- Government URL
+
+opt_withinX      -- str -- The surrounding structure (capital -> prefecture, prefecture -> region)
+opt_capital      -- str -- For prefectures, what is the capital?
+
