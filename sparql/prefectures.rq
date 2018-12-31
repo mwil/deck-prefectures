@@ -1,0 +1,43 @@
+SELECT DISTINCT
+    ?name_en ?name_kanji ?name_kana
+    ?in_region ?capital
+    ?stats_population ?stats_population_date ?stats_area
+    ?url_official ?url_wikipedia
+    ?img_flag ?img_symbol
+WHERE
+{
+    ?item   wdt:P31     wd:Q50337 ;
+            wdt:P1814   ?name_kana ;
+            p:P1082     [pq:P585 ?stats_population_date ; ps:P1082 ?stats_population] ;
+            wdt:P2046   ?stats_area ;
+            wdt:P856    ?url_official .
+
+    ?item   wdt:P36     [rdfs:label ?capital] .
+    FILTER(LANG(?capital) = "en") .
+
+    FILTER NOT EXISTS {?item p:P1082 [pq:P585 ?date_] FILTER (?date_ > ?stats_population_date)} .
+
+    ?item rdfs:label    ?name_en ;
+            rdfs:label  ?name_kanji .
+    FILTER(LANG(?name_en) = "en") .
+    FILTER(LANG(?name_kanji) = "ja") .
+
+    OPTIONAL {
+        ?url_wikipedia schema:about ?item .
+        ?url_wikipedia schema:inLanguage "en" .
+        ?url_wikipedia schema:isPartOf <https://en.wikipedia.org/> .
+    }
+
+    OPTIONAL {
+        ?item   wdt:P41     ?img_flag .
+        ?item   wdt:P94     ?img_symbol .
+    }
+
+    OPTIONAL {
+        ?r      wdt:P150    ?item ;
+                wdt:P31     wd:Q207520 ;
+                rdfs:label  ?in_region .
+
+        FILTER(LANG(?in_region) = "en") .
+    }
+}

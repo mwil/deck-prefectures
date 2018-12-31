@@ -1,0 +1,23 @@
+SELECT DISTINCT
+?name_en ?name_kanji ?name_kana
+?prefecture_en
+?url_wikipedia
+
+WHERE {
+  ?region wdt:P31 wd:Q207520 ;
+          wdt:P150 [wdt:P31 wd:Q50337] ;
+          rdfs:label ?name_en ;
+          rdfs:label ?name_kanji ;
+          wdt:P1814 ?name_kana ;
+          wdt:P150 [rdfs:label ?prefecture_en] .
+
+  FILTER(LANG(?name_en) = "en") .
+  FILTER(LANG(?name_kanji) = "ja") .
+  FILTER(LANG(?prefecture_en) = "en") .
+
+  OPTIONAL {
+      ?url_wikipedia schema:about ?region.
+      ?url_wikipedia schema:inLanguage "en".
+      ?url_wikipedia schema:isPartOf <https://en.wikipedia.org/>.
+  }
+}

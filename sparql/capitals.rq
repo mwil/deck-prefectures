@@ -1,0 +1,45 @@
+SELECT DISTINCT
+?name_en ?name_kanji ?name_kana
+?in_prefecture
+?stats_population ?stats_population_date
+?stats_area
+?url_official ?url_wikipedia
+?img_flag ?img_seal ?img_impression
+WHERE {
+  ?capital wdt:P31    wd:Q17221353 ;
+           rdfs:label ?name_en, ?name_kanji ;
+           wdt:P1814  ?name_kana ;
+           p:P1082    [pq:P585 ?stats_population_date; ps:P1082 ?stats_population] ;
+           wdt:P2046  ?stats_area .
+
+  FILTER(LANG(?name_en) = "en") .
+  FILTER(LANG(?name_kanji) = "ja") .
+
+  ?capital wdt:P856 ?url_official .
+
+  FILTER NOT EXISTS {
+    ?capital p:P1082 [pq:P585 ?date_] FILTER (?date_ > ?stats_population_date) .
+  }
+
+  OPTIONAL { ?capital wdt:P41 ?img_flag . }
+  OPTIONAL {
+    ?capital    wdt:P1376  ?prefecture .
+    ?prefecture rdfs:label ?in_prefecture ;
+                wdt:P31    wd:Q50337 .
+
+    FILTER(LANG(?in_prefecture) = "en") .
+  }
+  OPTIONAL { ?capital wdt:P158 ?img_seal . }
+  OPTIONAL { ?capital wdt:P94  ?img_symbol . }
+
+  BIND(IF(BOUND(?img_seal), ?img_seal, ?img_symbol) AS ?img_seal)
+
+  ?capital wdt:P31 wd:Q17221353 ;
+           wdt:P18 ?img_impression .
+
+  OPTIONAL {
+      ?url_wikipedia schema:about ?capital.
+      ?url_wikipedia schema:inLanguage "en".
+      ?url_wikipedia schema:isPartOf <https://en.wikipedia.org/>.
+  }
+}
