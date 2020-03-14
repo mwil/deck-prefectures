@@ -1,0 +1,41 @@
+SELECT DISTINCT
+    ?name_en
+    ?capital
+    ?stats_population ?stats_population_date ?stats_area
+    ?url_official ?url_wikipedia
+    ?svg_flag ?svg_symbol ?svg_seal
+WHERE
+{
+    ?item   wdt:P31     wd:Q35657;
+            p:P1082     [pq:P585 ?stats_population_date ; ps:P1082 ?stats_population] ;
+            p:P2046     [ps:P2046 ?stats_area ; psv:P2046 ?area_val ] ;
+            wdt:P856    ?url_official .
+
+    ?item   wdt:P36     [rdfs:label ?capital] .
+    FILTER(LANG(?capital) = "en") .
+
+    ?area_val  wikibase:quantityUnit ?area_unit .
+    FILTER(?area_unit = wd:Q712226) .
+
+    FILTER NOT EXISTS {?item p:P1082 [pq:P585 ?date_] FILTER (?date_ > ?stats_population_date)} .
+    FILTER NOT EXISTS {?item wdt:P2046 ?area_ FILTER (?area_ > ?stats_area)} .
+
+    ?item rdfs:label    ?name_en .
+    FILTER(LANG(?name_en) = "en") .
+
+    OPTIONAL {
+        ?url_wikipedia schema:about ?item .
+        ?url_wikipedia schema:inLanguage "en" .
+        ?url_wikipedia schema:isPartOf <https://en.wikipedia.org/> .
+    }
+
+    OPTIONAL {
+        ?item wdt:P41 ?svg_flag .
+    }
+    OPTIONAL {
+        ?item wdt:P94 ?svg_symbol .
+    }
+    OPTIONAL {
+        ?item wdt:P158 ?svg_seal .
+    }
+}

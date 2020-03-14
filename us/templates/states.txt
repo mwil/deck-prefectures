@@ -1,0 +1,18 @@
+Names in States Templates
+
+Index
+Title
+name_en
+capital
+map_ids
+stats_population
+stats_population_date
+stats_population_density
+stats_population_rank
+stats_area
+stats_area_date
+stats_area_rank
+url_official
+url_wikipedia
+img_flag
+img_symbol   -> seal + symbol + coat of arms

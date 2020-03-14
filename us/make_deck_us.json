@@ -1,0 +1,44 @@
+{
+    "Deck" : {
+        "deck_id": 901032020000,
+        "deck_name": "The United States of America"
+    },
+    "Region Model": {
+        "model_id": 901032020001,
+        "model_name": "USMap Regions",
+        "model_fields": [
+            {"name": "idx"},
+            {"name": "title"},
+            {"name": "name_en"},
+            {"name": "contained_states"},
+            {"name": "map_ids"},
+            {"name": "stats_population"},
+            {"name": "stats_population_density"},
+            {"name": "stats_population_rank"},
+            {"name": "stats_area"},
+            {"name": "stats_area_rank"},
+            {"name": "url_wikipedia"}
+        ]
+    },
+    "State Model": {
+        "model_id": 901032020002,
+        "model_name": "USMap States",
+        "model_fields": [
+            {"name": "idx"},
+            {"name": "title"},
+            {"name": "name_en"},
+            {"name": "capital"},
+            {"name": "map_ids"},
+            {"name": "stats_population"},
+            {"name": "stats_population_date"},
+            {"name": "stats_population_density"},
+            {"name": "stats_population_rank"},
+            {"name": "stats_area"},
+            {"name": "stats_area_rank"},
+            {"name": "url_official"},
+            {"name": "url_wikipedia"},
+            {"name": "img_flag"},
+            {"name": "img_seal"}
+        ]
+    }
+}
