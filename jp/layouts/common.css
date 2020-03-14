@@ -1,0 +1,156 @@
+path {
+    fill: #ffb918fc;
+    stroke: black;
+}
+
+circle {
+    stroke: black;
+    fill: black;
+    display: none;
+}
+
+#card_wrapper {
+    display: grid;
+    grid-template-areas:
+        'map'
+        'input'
+        'answer';
+    grid-template-rows: minmax(40%, 60%) 70px minmax(auto, max-content);
+    width: 100%;
+    height: 100%;
+    background-image: url("https://data.kitsun.io/5b7a8cc87edb55136c338fd2/undefined/n4kfhcartographer.png");
+    background-color: #0783c2;
+}
+
+#map_wrapper {
+    grid-area: map;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#input_wrapper {
+    grid-area: input;
+}
+
+#answer_wrapper {
+    grid-area: answer;
+}
+
+#answer_card {
+    margin: 16px;
+    padding: 6px;
+    background-color: #2d6278;
+    background-image: url("https://data.kitsun.io/5b7a8cc87edb55136c338fd2/undefined/n4kfhcartographer.png");
+    border: 3px solid #337ab7;
+    border-radius: 10px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#MapOfJapan {
+    width: 90%;
+    height: 90%;
+    padding: 25px;
+    min-width: 800px;
+}
+
+i.fa {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: grey;
+}
+
+#typeans_wrapper {
+    height: 70px;
+}
+
+#typeans,
+.typeans {
+    border: none;
+    height: 64px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-image: url("https://data.kitsun.io/5b7a8cc87edb55136c338fd2/undefined/n4kfhcartographer.png") !important;
+    background-color: #a313ac;
+    border: 3px #711571 solid;
+}
+
+.kitsun-click:hover path {
+    fill: #fb7500;
+    transition: all 0.75s ease;
+}
+
+.lessons.front,
+.lessons.back,
+.marked {
+   .customstyle path {
+      fill: #bb33cc;
+   }
+}
+
+.correct_card,
+.wrong_card {
+	.correctclick path {
+  		fill: limegreen;
+	}
+
+	.clickedanswer path {
+  		fill: red;
+	}
+
+	.correctclick.clickedanswer path {
+  		fill: limegreen;
+	}
+}
+
+.tcenter {
+    line-height: 64px;
+}
+
+h1 {
+    margin: 10px 4px;
+}
+
+.subtitle {
+    font-size: xx-small;
+}
+
+.lessons {
+    .inreviews {
+        display: none;
+    }
+}
+
+.reviews,
+.quiz {
+    .inlessons {
+        display: none;
+    }
+}
+
+.correct_card #input_wrapper .typeans,
+.correct_card #input_wrapper #typeans {
+    border-color: limegreen;
+    background-color: limegreen !important;
+}
+
+.wrong_card #input_wrapper .typeans,
+.wrong_card #input_wrapper #typeans {
+    border-color: red;
+    background-color: red !important;
+}
+
+table#stats {
+    width: 90%;
+}

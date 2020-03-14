@@ -1,0 +1,85 @@
+path {
+    fill: #ffb918fc;
+    stroke: black;
+}
+
+circle {
+    stroke: black;
+    fill: black;
+}
+
+#card_wrapper {
+  display: grid;
+  grid-template-areas: 'map'
+    'input'
+    'answer';
+  grid-template-rows: minmax(40%, 55%) 70px minmax(auto, max-content);
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');   background-color: #0783c2;
+}
+
+#map_wapper {
+  grid-area: map;
+  min-width: 800px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#input_wrapper {
+  grid-area: input;
+}
+
+#answer_wapper {
+  grid-area: answer;
+}
+
+#MapOfJapan {
+    width: 97%;
+    height: 90%;
+    padding: 10px;
+}
+i.fa {
+   color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: grey;
+}
+
+#typeans_wrapper {
+    height: 70px;
+}
+
+#typeans {
+    border: none;
+    height: 64px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
+    background-color: #a313ac;
+    border: 3px #711571 solid;
+}
+
+.kitsun-click:hover path {
+    fill: #fb7500;
+    transition: all 0.75s ease;
+}
+
+.customstyle path {
+    fill: #ff0000;
+
+}
+
+.tcenter {
+    line-height: 64px;
+}

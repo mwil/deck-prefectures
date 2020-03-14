@@ -20,3 +20,8 @@ url_official     -- url -- Government URL
 opt_withinX      -- str -- The surrounding structure (capital -> prefecture, prefecture -> region)
 opt_capital      -- str -- For prefectures, what is the capital?
 
+
+
+-----------------------------------------------------------
+TODO: More Ideas
+-----------------------------------------------------------

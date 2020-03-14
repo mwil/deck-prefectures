@@ -1,0 +1,49 @@
+{
+    "Deck" : {
+        "deck_id": 902012020000,
+        "deck_name": "Prefectures of Japan"
+    },
+    "Region Model": {
+        "model_id": 902012020001,
+        "model_name": "JPref Regions",
+        "model_fields": [
+            {"name": "index"},
+            {"name": "title"},
+            {"name": "name_en"},
+            {"name": "name_kanji"},
+            {"name": "name_kana"},
+            {"name": "contained_prefs"},
+            {"name": "map_ids"},
+            {"name": "stats_population"},
+            {"name": "stats_population_density"},
+            {"name": "stats_population_rank"},
+            {"name": "stats_area"},
+            {"name": "stats_area_rank"},
+            {"name": "url_wikipedia"}
+        ]
+    },
+    "Prefecture Model": {
+        "model_id": 902012020002,
+        "model_name": "JPref Prefectures",
+        "model_fields": [
+            {"name": "index"},
+            {"name": "title"},
+            {"name": "name_en"},
+            {"name": "name_kanji"},
+            {"name": "name_kana"},
+            {"name": "in_region"},
+            {"name": "capital"},
+            {"name": "map_ids"},
+            {"name": "stats_population"},
+            {"name": "stats_population_date"},
+            {"name": "stats_population_density"},
+            {"name": "stats_population_rank"},
+            {"name": "stats_area"},
+            {"name": "stats_area_rank"},
+            {"name": "url_official"},
+            {"name": "url_wikipedia"},
+            {"name": "img_flag"},
+            {"name": "img_symbol"}
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+path {
+    fill: #ffb918fc;
+    stroke: black;
+}
+
+circle {
+    stroke: black;
+    fill: black;
+    display: none;
+}
+
+#card_wrapper {
+    display: grid;
+    grid-template-areas:
+        'map'
+        'input'
+        'answer';
+    grid-template-rows: minmax(40%, 60%) 70px minmax(auto, max-content);
+    width: 100%;
+    height: 100%;
+    background-image: url("https://data.kitsun.io/5b7a8cc87edb55136c338fd2/undefined/n4kfhcartographer.png");
+    background-color: #0783c2;
+}
+
+#map_wapper {
+  grid-area: map;
+  min-width: 640px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#input_wrapper {
+  grid-area: input;
+}
+
+#answer_wapper {
+  grid-area: answer;
+}
+
+#answer_card {
+   margin: 16px;
+   padding: 1px;
+   background-color: #2d6278;
+   background-image: url("https://data.kitsun.io/5b7a8cc87edb55136c338fd2/undefined/n4kfhcartographer.png");
+   border-radius: 10px;
+   color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#MapOfJapan {
+    width: 90%;
+    height: 90%;
+    padding: 25px;
+}
+
+i.fa {
+  color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: grey;
+}
+
+#typeans_wrapper {
+    height: 70px;
+}
+
+#typeans,
+.typeans {
+    border: none;
+    height: 64px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-image: url("https://data.kitsun.io/5b7a8cc87edb55136c338fd2/undefined/n4kfhcartographer.png");
+    background-color: #a313ac;
+    border: 3px #711571 solid;
+}
+
+.kitsun-click:hover path {
+    fill: #fb7500;
+    transition: all 0.75s ease;
+}
+
+.customstyle path {
+  fill: #ff0000;
+}
+
+.correct_card {
+	.correctclick path {
+  		fill: red;
+	}
+
+	.clickedanswer path {
+  		fill: yellow;
+	}
+
+	.correctclick.clickedanswer path {
+  		fill: limegreen;
+	}
+}
+
+
+.tcenter {
+    line-height: 64px;
+}
+
+.subtitle {
+    font-size: xx-small;
+}
+
+.correct_card #input_wrapper #typeans {
+    border-color: limegreen;
+    background-color: limegreen;
+}
+
+.wrong_card #input_wrapper #typeans {
+    border-color: red;
+    background-color: red;
+}
+
+table#stats {
+    width: 90%;
+}

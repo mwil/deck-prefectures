@@ -1,0 +1,146 @@
+{
+    "Chūbu region": {
+        "name_en": "Chūbu, Chubu, Chuubu",
+        "name_kanji": "中部地方",
+        "name_kana": "ちゅうぶちほう",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/Ch%C5%ABbu_region",
+        "title": "Chūbu",
+        "contained_prefs": "Aichi, Yamanashi, Fukui, Toyama, Gifu, Ishikawa, Nagano, Niigata, Shizuoka",
+        "map_ids": "Aichi, Yamanashi, Fukui, Toyama, Gifu, Ishikawa, Nagano, Niigata, Shizuoka",
+        "stats_population": "21,211,844",
+        "stats_area": "66,820.34",
+        "stats_population_density": "317.45",
+        "stats_population_rank": 3,
+        "stats_area_rank": 3,
+        "index": 300,
+        "tags": [
+            "Region"
+        ]
+    },
+    "Kantō region": {
+        "name_en": "Kantō, Kanto, Kantou",
+        "name_kanji": "関東地方",
+        "name_kana": "かんとうちほう",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/Kant%C5%8D_region",
+        "title": "Kantō",
+        "contained_prefs": "Tokyo, Kanagawa, Gunma, Ibaraki, Tochigi, Chiba, Saitama",
+        "map_ids": "Tokyo, Kanagawa, Gunma, Ibaraki, Tochigi, Chiba, Saitama",
+        "stats_population": "43,507,357",
+        "stats_area": "32,424.12",
+        "stats_population_density": "1,341.82",
+        "stats_population_rank": 1,
+        "stats_area_rank": 6,
+        "index": 100,
+        "tags": [
+            "Region"
+        ]
+    },
+    "Chūgoku region": {
+        "name_en": "Chūgoku, Chugoku, Chuugoku",
+        "name_kanji": "中国地方",
+        "name_kana": "ちゅうごくちほう",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/Ch%C5%ABgoku_region",
+        "title": "Chūgoku",
+        "contained_prefs": "Shimane, Hiroshima, Okayama, Yamaguchi, Tottori",
+        "map_ids": "Shimane, Hiroshima, Okayama, Yamaguchi, Tottori",
+        "stats_population": "7,287,805",
+        "stats_area": "31,916.10",
+        "stats_population_density": "228.34",
+        "stats_population_rank": 6,
+        "stats_area_rank": 7,
+        "index": 600,
+        "tags": [
+            "Region"
+        ]
+    },
+    "Tōhoku region": {
+        "name_en": "Tōhoku, Tohoku, Touhoku",
+        "name_kanji": "東北地方",
+        "name_kana": "とうほくちほう",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/T%C5%8Dhoku_region",
+        "title": "Tōhoku",
+        "contained_prefs": "Aomori, Fukushima, Miyagi, Akita, Iwate, Yamagata",
+        "map_ids": "Aomori, Fukushima, Miyagi, Akita, Iwate, Yamagata",
+        "stats_population": "8,666,061",
+        "stats_area": "66,930.26",
+        "stats_population_density": "129.48",
+        "stats_population_rank": 5,
+        "stats_area_rank": 2,
+        "index": 500,
+        "tags": [
+            "Region"
+        ]
+    },
+    "Kansai region": {
+        "name_en": "Kansai",
+        "name_kanji": "近畿地方",
+        "name_kana": "きんきちほう",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/Kansai_region",
+        "title": "Kansai",
+        "contained_prefs": "Hyōgo, Shiga, Kyōto, Ōsaka, Wakayama, Mie, Nara",
+        "map_ids": "Hyogo, Shiga, Kyoto, Osaka, Wakayama, Mie, Nara",
+        "stats_population": "22,321,160",
+        "stats_area": "33,123.77",
+        "stats_population_density": "673.87",
+        "stats_population_rank": 2,
+        "stats_area_rank": 5,
+        "index": 200,
+        "tags": [
+            "Region"
+        ]
+    },
+    "Kyūshū (region)": {
+        "name_en": "Kyūshū, Kyushu, Kyuushuu",
+        "name_kanji": "九州",
+        "name_kana": "きゅうしゅう",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/Kyushu",
+        "title": "Kyūshū",
+        "contained_prefs": "Kumamoto, Kagoshima, Ōita, Miyazaki, Okinawa, Fukuoka, Saga, Nagasaki",
+        "map_ids": "Kumamoto, Kagoshima, Oita, Miyazaki, Okinawa, Fukuoka, Saga, Nagasaki",
+        "stats_population": "14,258,318",
+        "stats_area": "44,410.30",
+        "stats_population_density": "321.06",
+        "stats_population_rank": 4,
+        "stats_area_rank": 4,
+        "index": 400,
+        "tags": [
+            "Region"
+        ]
+    },
+    "Shikoku (region)": {
+        "name_en": "Shikoku",
+        "name_kanji": "四国",
+        "name_kana": "しこく",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/Shikoku",
+        "title": "Shikoku",
+        "contained_prefs": "Kōchi, Ehime, Tokushima, Kagawa",
+        "map_ids": "Kochi, Ehime, Tokushima, Kagawa",
+        "stats_population": "3,721,187",
+        "stats_area": "18,787.02",
+        "stats_population_density": "198.07",
+        "stats_population_rank": 8,
+        "stats_area_rank": 8,
+        "index": 800,
+        "tags": [
+            "Region"
+        ]
+    },
+    "Hokkaidō (region)": {
+        "name_en": "Hokkaidō, Hokkaido, Hokkaidou",
+        "name_kanji": "北海道",
+        "name_kana": "ほっかいどう",
+        "url_wikipedia": "https://en.wikipedia.org/wiki/Hokkaido",
+        "title": "Hokkaidō",
+        "contained_prefs": "Hokkaidō",
+        "map_ids": "Hokkaido",
+        "stats_population": "5,432,200",
+        "stats_area": "83,424.31",
+        "stats_population_density": "65.12",
+        "stats_population_rank": 7,
+        "stats_area_rank": 1,
+        "index": 700,
+        "tags": [
+            "Region"
+        ]
+    }
+}

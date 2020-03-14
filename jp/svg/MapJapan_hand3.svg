@@ -2,7 +2,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-viewBox="82 11 851 1071" id="MapOfJapan"
+viewBox="0 0 852 1071" id="MapOfJapan"
 version="1.1">
 
 <defs id="MapOfJapanDefs">
@@ -54,7 +54,7 @@ version="1.1">
     </g>
 
     <g id="Region-Kanto">
-        <g id="Gumma" class="kitsun-click">
+        <g id="Gunma" class="kitsun-click">
             <path d="m 592.9,580.2 -2.2,-1.4 -5.7,-1.4 h -3.6 l -2.9,6.4 -3.6,4.4 H 572 l -1.4,1.4 -2.2,5.7 -3.6,0.8 -3.6,-0.8 -7.2,6.5 v 8.7 h 4.4 l 5,2.1 -1.5,6.5 0.8,7.9 0.7,5 1.4,3.6 3.6,1.5 5.1,-5.8 6.4,-2.1 2.9,-2.2 0.7,-4.3 4.4,-2.2 h 5 l 5.7,2.9 8,0.7 h 3.6 v -2.8 l -2.2,-2.9 -6.5,-0.7 -2.9,-7.2 v -5.1 l 1.5,-6.5 h -4.3 l 0.7,-4.3 -1.5,-8.6 z" />
         </g>
         <g id="Tochigi" class="kitsun-click">
@@ -84,7 +84,7 @@ version="1.1">
         <g id="Aichi" class="kitsun-click">
             <path d="m 469.9,684.6 1.4,-0.8 v -2.1 l 5,-7.2 10.1,-1.4 7.9,4.3 10.1,2.8 h 8.6 l 12.3,1.5 0.7,5.7 -9.4,14.4 -5.7,3.6 v 9.4 h -5.8 l -10.1,4.3 h -3.6 v -2.2 l 10.8,-6.4 -0.7,-2.9 -10.8,0.7 -2.1,-1.4 -0.8,-4.3 -2.1,5 1.4,5 -5,-2.1 v -4.3 l -2.2,-3.6 V 699 l 4.3,-5.1 -2.8,-2.1 -5.8,2.1 z" />
         </g>
-        <g id="Nigata" class="kitsun-click">
+        <g id="Niigata" class="kitsun-click">
             <path d="m 569.9,589.6 2.1,-1.4 h 2.9 l 3.6,-4.4 2.9,-6.4 h 3.6 l 6.4,1.4 1.5,-2.2 -0.7,-5.7 -4.3,-8.6 1.4,-5.1 -2.2,-2.1 1.5,-4.4 12.2,-4.3 4.3,-2.1 -2.1,-2.2 v -2.9 l 4.3,-2.1 2.1,-5.8 3.6,-2.9 -5.7,-4.3 3.6,-10.8 -2.2,-1.4 2.9,-5 h 2.2 l 3.6,-3.6 v -2.9 l -4.4,-4.3 h -2.8 l -0.8,-7.2 -5,-3.6 -1.4,3.6 -5.1,10 v 13.7 l -23,16.6 -3.6,3.6 -2.9,12.2 -7.2,6.5 -2.8,6.4 -11.6,10.1 h -5.7 l -9.4,5.8 -5,4.3 -6.5,2.9 2.2,7.9 4.3,-3.6 1.4,-2.9 h 5.8 l 2.9,5 10,-2.8 3.6,-4.4 3.6,-3.6 h 4.3 l 5.1,6.5 z" />
             <path d="m 544,531.3 7.2,-0.7 7.1,-7.2 0.8,-7.2 -4.3,1.4 v -6.4 l 1.4,-3.6 -0.7,-5.8 -8.7,8.6 -2.1,8.7 4.3,2.9 v 2.8 z" />
         </g>
@@ -216,56 +216,56 @@ version="1.1">
             <path d="m 105.6,321.9 h 4.3 l 0.8,-5.7 7.9,1.4 1.4,1.4 v 2.2 l -4.3,4.3 -10.1,-0.7 z" />
         </g>
     </g>
-</g>
 
-<g id="Capitals">
-    <use id="Akita-Akita" x="620" y="403" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(-2.001)" />
-    <use id="Hokkaido-Sapporo" x="650" y="206" width="100%" height="100%" xlink:href="#CapitalMarker" transform="translate(-2.001)" />
-    <use id="Fukuoka-Fukuoka" x="201" y="794" height="100%" width="100%" xlink:href="#CapitalMarker" />
-    <use id="Saga-Saga" x="187" y="813" height="100%" width="100%" xlink:href="#CapitalMarker" />
-    <use id="Nagasaki-Nagasaki" x="172" y="840" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(0,2.001)" />
-    <use id="Kumamoto-Kumamoto" x="225.4" y="364.3" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(-12.54,480.3)" />
-    <use id="Oita-Oita" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(258.4,813.8)" />
-    <use id="Miyazaki-Miyazaki" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(248.4,886)" />
-    <use id="Kagoshima-Kagoshima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(204.8,906.8)" />
-    <use id="Okinawa-Naha" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(377,397)" />
-    <use id="Tokushima-Tokushima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(391,757.1)" />
-    <use id="Kagawa-Takamatsu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(369,743.1)" />
-    <use id="Ehime-Matsuyama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(311.2,770.9)" />
-    <use id="Kochi-Kochi" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(343.9,791.7)" />
-    <use id="Tottori-Tottori" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(367.9,676.9)" />
-    <use id="Shimane-Matsue" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(320.7,677.9)" />
-    <use id="Okayama-Okayama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(363,725.9)" />
-    <use id="Hiroshima-Hiroshima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(291.1,742)" />
-    <use id="Yamaguchi-Yamaguchi" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(245.1,755.8)" />
-    <use id="Mie-Tsu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(482.2,713.6)" />
-    <use id="Shiga-Otsu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(457.8,704.1)" />
-    <use id="Kyoto-Kyoto" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(448.8,704.9)" />
-    <use id="Osaka-Osaka" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(435.7,716.2)" />
-    <use id="Hyogo-Kobe" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(420.7,718.1)" />
-    <use id="Nara-Nara" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(453.1,716.3)" />
-    <use id="Wakayama-Wakayama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(421,747.2)" />
-    <use id="Aichi-Nagoya" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(499,688.4)" />
-    <use id="Niigata-Niigata" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(582.3,519.8)" />
-    <use id="Toyama-Toyama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(505.4,595.5)" />
-    <use id="Ishikawa-Kanazawa" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(482.6,599.3)" />
-    <use id="Fukui-Fukui" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(462.5,633)" />
-    <use id="Yamanashi-Kofu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(572.8,645)" />
-    <use id="Nagano-Nagano" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(549.3,590.8)" />
-    <use id="Gifu-Gifu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(493.5,669.1)" />
-    <use id="Shizuoka-Shizuoka" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(572.5,686.6)" />
-    <use id="Gunma-Maebashi" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(593.1,602)" />
-    <use id="Tochigi-Utsunomiya" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(624.2,587.3)" />
-    <use id="Ibaraki-Mito" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(657.6,598.4)" />
-    <use id="Saitama-Saitama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(623.7,627)" />
-    <use id="Kanagawa-Yokohama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(622,653.6)" />
-    <use id="Tokyo-Shinjuku" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(627.7,639)" />
-    <use id="Chiba-Chiba" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(649.7,643)" />
-    <use id="Yamagata-Yamagata" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(635.6,490.2)" />
-    <use id="Miyagi-Sendai" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(665.4,486.6)" />
-    <use id="Iwate-Morioka" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(662.3,402.8)" />
-    <use id="Fukushima-Fukushima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(646.3,515)" />
-    <use id="Aomori-Aomori" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(637.7,341.5)" />
+    <g id="Capitals" transform="rotate(5,500,500)">
+        <use id="Akita-Akita" x="620" y="403" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(-2.001)" />
+        <use id="Hokkaido-Sapporo" x="650" y="206" width="100%" height="100%" xlink:href="#CapitalMarker" transform="translate(-2.001)" />
+        <use id="Fukuoka-Fukuoka" x="201" y="794" height="100%" width="100%" xlink:href="#CapitalMarker" />
+        <use id="Saga-Saga" x="187" y="813" height="100%" width="100%" xlink:href="#CapitalMarker" />
+        <use id="Nagasaki-Nagasaki" x="172" y="840" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(0,2.001)" />
+        <use id="Kumamoto-Kumamoto" x="225.4" y="364.3" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(-12.54,480.3)" />
+        <use id="Oita-Oita" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(258.4,813.8)" />
+        <use id="Miyazaki-Miyazaki" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(248.4,886)" />
+        <use id="Kagoshima-Kagoshima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(204.8,906.8)" />
+        <use id="Okinawa-Naha" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(377,397)" />
+        <use id="Tokushima-Tokushima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(391,757.1)" />
+        <use id="Kagawa-Takamatsu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(369,743.1)" />
+        <use id="Ehime-Matsuyama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(311.2,770.9)" />
+        <use id="Kochi-Kochi" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(343.9,791.7)" />
+        <use id="Tottori-Tottori" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(367.9,676.9)" />
+        <use id="Shimane-Matsue" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(320.7,677.9)" />
+        <use id="Okayama-Okayama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(363,725.9)" />
+        <use id="Hiroshima-Hiroshima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(291.1,742)" />
+        <use id="Yamaguchi-Yamaguchi" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(245.1,755.8)" />
+        <use id="Mie-Tsu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(482.2,713.6)" />
+        <use id="Shiga-Otsu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(457.8,704.1)" />
+        <use id="Kyoto-Kyoto" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(448.8,704.9)" />
+        <use id="Osaka-Osaka" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(435.7,716.2)" />
+        <use id="Hyogo-Kobe" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(420.7,718.1)" />
+        <use id="Nara-Nara" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(453.1,716.3)" />
+        <use id="Wakayama-Wakayama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(421,747.2)" />
+        <use id="Aichi-Nagoya" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(499,688.4)" />
+        <use id="Niigata-Niigata" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(582.3,519.8)" />
+        <use id="Toyama-Toyama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(505.4,595.5)" />
+        <use id="Ishikawa-Kanazawa" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(482.6,599.3)" />
+        <use id="Fukui-Fukui" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(462.5,633)" />
+        <use id="Yamanashi-Kofu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(572.8,645)" />
+        <use id="Nagano-Nagano" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(549.3,590.8)" />
+        <use id="Gifu-Gifu" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(493.5,669.1)" />
+        <use id="Shizuoka-Shizuoka" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(572.5,686.6)" />
+        <use id="Gunma-Maebashi" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(593.1,602)" />
+        <use id="Tochigi-Utsunomiya" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(624.2,587.3)" />
+        <use id="Ibaraki-Mito" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(657.6,598.4)" />
+        <use id="Saitama-Saitama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(623.7,627)" />
+        <use id="Kanagawa-Yokohama" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(622,653.6)" />
+        <use id="Tokyo-Shinjuku" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(627.7,639)" />
+        <use id="Chiba-Chiba" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(649.7,643)" />
+        <use id="Yamagata-Yamagata" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(635.6,490.2)" />
+        <use id="Miyagi-Sendai" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(665.4,486.6)" />
+        <use id="Iwate-Morioka" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(662.3,402.8)" />
+        <use id="Fukushima-Fukushima" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(646.3,515)" />
+        <use id="Aomori-Aomori" x="0" y="0" height="100%" width="100%" xlink:href="#CapitalMarker" transform="translate(637.7,341.5)" />
+        </g>
     </g>
 </g>
 

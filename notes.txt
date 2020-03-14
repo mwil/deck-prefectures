@@ -1,0 +1,10 @@
+# Notes
+
+### Better handling of input focus
+- autofocus attribute
+
+### Center scrolling SVG map on small screens
+- https://stackoverflow.com/a/41059954/2699475
+-- margin-left: 50%;
+-- transform: translateX(-50%);
+
