@@ -61,13 +61,21 @@ REG_CLICK_INPUT_BACK = '''
 
 REG_ANSWER = '''
     <div id="answer_card" class="expand_content" data-content="1">
-        <h1>
-            {{first:name_en}}
-        </h1>
-        <p>The region consists of {{contained_states}}.</p>
-
-        <table id="stats">
+        <table class="answer-table">
         <tbody>
+            <tr class="answer-title">
+                <td>{{first:name_en}}</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <table id="stats" class="answer-table">
+        <tbody>
+            <tr>
+                <td colspan="2" class="answer-subt">
+                    The region consists of {{contained_states}}.
+                </td>
+            </tr>
             <tr>
                 <td>Population: {{stats_population}}</td>
                 <td>Area: {{stats_area}} km²</td>
@@ -82,6 +90,7 @@ REG_ANSWER = '''
         </tbody>
         </table>
     </div>'''
+
 
 ################################################################################
 REG_MODEL = anki.Model(
@@ -143,13 +152,23 @@ STATE_CLICK_INPUT_BACK = '''
 
 STATE_ANSWER = '''
     <div id="answer_card" class="expand_content" data-content="1">
-        <h1>
-            {{first:name_en}}
-        </h1>
-        <p>Capital: {{capital}}</p>
-
-        <table id="stats">
+        <table class="answer-table">
         <tbody>
+            <tr>
+                <td class="ralign">{{img_flag}}</td>
+                <td class="answer-title">{{first:name_en}}</td>
+                <td class="lalign">{{img_seal}}</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <table class="answer-table">
+        <tbody>
+            <tr>
+                <td colspan="2" class="answer-subt">
+                    Capital: {{capital}}
+                </td>
+            </tr>
             <tr>
                 <td>Population: {{stats_population}}</td>
                 <td>Area: {{stats_area}} km²</td>
